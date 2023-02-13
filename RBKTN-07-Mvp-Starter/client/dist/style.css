@@ -1,0 +1,152 @@
+
+
+#image1{
+    width: 250px;
+    height: 200px;
+    border-radius: 8px;
+    margin-top: -100px;
+}
+
+#allList{
+    margin-top: 200px;
+    margin-left:60px ;
+    margin-right:50px ;
+    margin-bottom: 220px;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 0%;
+    align-items: center;
+    justify-content: center;
+    margin: 40px
+}
+
+#container:hover{
+    flex: 2;
+    background-color: rgb(207, 207, 207);
+}
+
+#app{
+    height: 310px;
+    background-color: black ;
+}
+
+#sign{
+    padding: 60px;
+  text-align: center;
+  color: bisque;
+  font-size: 30px;
+  width: 40%;
+  height: 200px;
+  width: 290px;
+    height: 190px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 220px;
+}
+
+#title{
+    position: absolute;
+    margin-left: 70%;
+    margin-top: -150px;
+    color: gold;
+    font-size: 100px;
+    
+
+}
+
+
+#quote{
+    margin-left: 20%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+
+#creaate{
+    background-color: black;
+    margin-bottom: 70px;
+    height: 70px;
+    padding: top 40px; ;
+}
+
+
+#create{
+    width: 200px;
+    height: 50px;
+    margin-left: 40%;
+    margin-top: 10px;
+    
+}
+
+#create:hover{
+    background-color: gold;
+    position:absolute;
+}
+
+#search{
+    margin-left: 45%;
+    font-size: 60px;
+}
+
+#ligne{
+    margin-top: -44%;
+    font-size: 5000%;
+    margin-bottom: 0%;
+    margin-left: 2%;
+    width: 100%;
+}
+
+
+#img{
+    border-left-width: 0%;
+    width: 100%;
+
+}
+
+
+#delete{
+    border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+
+#delete:hover {
+    opacity: 0.7;
+}
+
+#upload{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+#upload:hover{
+    opacity: 0.7;
+}
+
+.cards{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-left: 0;
+}
+
